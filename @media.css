@@ -1,0 +1,21 @@
+body {
+       background-color: tan;
+       width: 100%;
+       overflow-x: hidden;
+}
+
+.img1 { display: none; }
+
+
+@media screen and (max-width: 1000px){
+   body{    background-color: lime;}
+   .img1 {   display: block; }
+   .img2 {   display: none; }
+   
+   
+}
+
+
+   
+
+
